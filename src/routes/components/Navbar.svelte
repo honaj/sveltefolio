@@ -5,7 +5,7 @@
     };
 </script>
 
-<nav class="sticky top-0">
+<nav class="sticky top-0 backdrop-blur-3xl">
     <div class="container mx-auto px-6 py-3 flex justify-between text-orange items-center">
         <a href="/" class="text-3xl md:text-5xl font-bold text-orange ">JOHAN HELLGREN</a>
         <div class="md:hidden">

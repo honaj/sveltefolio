@@ -9,6 +9,9 @@ export default {
       'blue': '#83a598'
     },
     extend: {
+      grayscale: {
+        50: '50%',
+      },
       transitionProperty: {
         'colors': 'color',
       },
