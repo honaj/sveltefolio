@@ -9,6 +9,9 @@ export default {
       'blue': '#83a598'
     },
     extend: {
+      transitionProperty: {
+        'colors': 'color',
+      },
       fontFamily: {
         'Jost': ['Jost', 'sans-serif'],
       },
