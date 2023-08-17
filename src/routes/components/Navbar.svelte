@@ -1,5 +1,5 @@
 <script lang="ts">
-    let isOpen = false;
+    let isOpen: Boolean = false;
     const toggleMenu = () => {
         isOpen = !isOpen;
     };

@@ -4,7 +4,7 @@
 
 <div class="flex flex-col md:flex-row justify-center h-screen font-Jost text-white pt-32">
     <div class="flex justify-center items-center w-full md:w-1/2">
-        <img alt="Portrait photo" class="w-120 h-120 rounded-full overflow-hidden shadow-lg mb-4"
+        <img alt="Portrait photo" class="grayscale-50 w-120 h-120 rounded-full overflow-hidden shadow-lg mb-4"
              src="/portrait.png">
     </div>
     <div class="flex flex-col items-start w-full md:w-1/2 mx-6">
@@ -23,26 +23,20 @@
         </ul>
 
         <h2 class="text-4xl font-bold text-white font-Jost">Skills</h2>
-        <h3 class="mt-4 text-2xl text-blue-700 max-w-lg text-white mb-2">Programming Languages:</h3>
+        <h3 class="mt-4 text-2xl text-white max-w-lg text-white mb-2">Programming Languages:</h3>
         <ul class="ml-4 text-white text-2xl font-Jost">
             <li>C#</li>
             <li>JavaScript/Typescript</li>
             <li>C++</li>
             <li>GDScript</li>
         </ul>
-        <h3 class="text-2xl text-blue-700 max-w-lg text-white mb-2 font-Jost">Frameworks:</h3>
-        <ul class="ml-4 text-white text-2xl">
-            <li>Blazor</li>
-            <li>Svelte</li>
-            <li>React</li>
-        </ul>
-        <p class="text-2xl text-blue-700 max-w-lg text-white mb-2">Game Engines:</p>
+        <p class="text-2xl text-white max-w-lg text-white mb-2">Game Engines:</p>
         <ul class="ml-4 text-white text-2xl">
             <li>Unreal Engine</li>
             <li>Unity</li>
             <li>Godot</li>
         </ul>
-        <h3 class="text-2xl text-blue-700 max-w-lg text-white mb-2">Tools:</h3>
+        <h3 class="text-2xl text-white max-w-lg text-white mb-2">Tools:</h3>
         <ul class="ml-4 text-white text-2xl font-Jost">
             <li>Jetbrains Rider</li>
             <li>Visual Studio Code</li>
