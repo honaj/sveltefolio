@@ -26,7 +26,7 @@
                 About
             </a>
             <a href="/projects" class="nav-button relative inline-block px-2 py-1 text-3xl font-medium text-orange 
-    transition-colors duration-200 ease-linear   /* <-- this makes unhover work (added line) */
+    transition-colors duration-200 ease-linear
     hover:text-white before:absolute before:w-0 before:h-full 
     before:bg-orange before:left-0 before:bottom-0 before:transition-all before:duration-200 before:ease-linear 
     hover:before:w-full after:content-['Projects'] after:absolute after:inset-0 after:flex after:items-center after:justify-center hover:after:w-full">

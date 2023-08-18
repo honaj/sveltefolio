@@ -8,7 +8,6 @@
         {image_url: '/democratic-design1.jpg', project_name: 'Edvard Munch Museum - Shadows'},
         {image_url: '/democratic-design1.jpg', project_name: 'Danish Design Museum - In the Making'},
         {image_url: '/democratic-design1.jpg', project_name: 'Enigma Museum - Forum'},
-        // ... Other elements
     ];
 </script>
 
