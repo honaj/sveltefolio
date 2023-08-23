@@ -23,20 +23,20 @@
         </ul>
 
         <h2 class="text-4xl font-bold text-white font-Jost">Skills</h2>
-        <h3 class="mt-4 text-2xl text-white max-w-lg text-white mb-2">Programming Languages:</h3>
+        <h3 class="mt-4 text-2xl max-w-lg text-white mb-2">Programming Languages:</h3>
         <ul class="ml-4 text-white text-2xl font-Jost">
             <li>C#</li>
             <li>JavaScript/Typescript</li>
             <li>C++</li>
             <li>GDScript</li>
         </ul>
-        <p class="text-2xl text-white max-w-lg text-white mb-2">Game Engines:</p>
+        <p class="text-2xl max-w-lg text-white mb-2">Game Engines:</p>
         <ul class="ml-4 text-white text-2xl">
             <li>Unreal Engine</li>
             <li>Unity</li>
             <li>Godot</li>
         </ul>
-        <h3 class="text-2xl text-white max-w-lg text-white mb-2">Tools:</h3>
+        <h3 class="text-2xl max-w-lg text-white mb-2">Tools:</h3>
         <ul class="ml-4 text-white text-2xl font-Jost">
             <li>Jetbrains Rider</li>
             <li>Visual Studio Code</li>

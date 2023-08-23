@@ -1,7 +1,6 @@
 <script lang="ts">
     import Thumbnail from "../components/thumbnail.svelte";
     import SvelteMarkdown from 'svelte-markdown'
-    
 
     const pages = [
         {image_url: '/democratic-design1.jpg', project_name: 'IKEA Museum - Democratic Design'},

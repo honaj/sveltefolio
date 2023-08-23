@@ -12,6 +12,8 @@ export default {
       grayscale: {
         50: '50%',
       },
+      scale: ["group-hover"],
+      transformOrigin: ["group-hover"],
       transitionProperty: {
         'colors': 'color',
       },
@@ -20,5 +22,7 @@ export default {
       },
     }
   },
-  plugins: []
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+  ]
 };
