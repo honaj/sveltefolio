@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Navbutton from "./Navbutton.svelte";
+    import Navbutton from "./Navbutton.svelte"
 
-    let isOpen: Boolean = false;
+    let isOpen: Boolean = false
     const toggleMenu = () => {
         isOpen = !isOpen;
     };
@@ -24,14 +24,14 @@
             </button>
         </div>
         <div class="hidden md:flex items-center">
-            <Navbutton name="About" url="/about"></Navbutton>
-            <Navbutton name ="Projects" url="/projects"></Navbutton>
+            <Navbutton name="About" address="/about"></Navbutton>
+            <Navbutton name ="Projects" address="/projects"></Navbutton>
         </div>
     </div>
     {#if isOpen}
         <div class="px-2 pt-2 pb-4 md:hidden">
-            <a href="/about" class="block text-3xl px-2 py-1 text-orange font-Jost" on:click={toggleMenu}>About</a>
-            <a href="/projects" class="block text-3xl px-2 py-1 text-orange font-Jost" on:click={toggleMenu}>Projects</a>
+            <a href="/about" class="block text-3xl pl-4 text-orange font-Jost" on:click={toggleMenu}>About</a>
+            <a href="/projects" class="block text-3xl pl-4 text-orange font-Jost" on:click={toggleMenu}>Projects</a>
         </div>
     {/if}
 </nav> 

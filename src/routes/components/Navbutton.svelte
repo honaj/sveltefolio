@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte"
     export let name: string = ''
-    export let url: string = '#'
+    export let address: string = '#'
 
     let button: HTMLDivElement
     let dir: boolean = false
@@ -35,7 +35,7 @@
     }
 </style>
 
-<a href={url}>
+<a href={address}>
     <div bind:this={button}
          class="button-container relative inline-block px-2 py-1 overflow-hidden before:absolute before:w-0 before:h-full before:bg-orange before:bottom-0 before:transition-all before:duration-200 before:ease-linear hover:before:w-full 
             {dir ? 'before:right-0' : 'before:left-0'} before:z-[-1]"

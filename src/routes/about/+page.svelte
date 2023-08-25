@@ -1,7 +1,3 @@
-<script>
-    import { fly } from 'svelte/transition';
-</script>
-
 <div class="flex flex-col md:flex-row justify-center h-screen font-Jost text-white pt-32">
     <div class="flex justify-center items-center w-full md:w-1/2">
         <img alt="Portrait photo" class="grayscale-50 w-120 h-120 rounded-full overflow-hidden shadow-lg mb-4"

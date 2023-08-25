@@ -1,7 +1,7 @@
 <script lang="ts">
     export let image_url: string
     export let project_name: string
-    export let page_address: string
+    export let page_address: string = "#"
 </script>
 
 <a href={page_address}>
