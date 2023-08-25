@@ -1,9 +1,10 @@
 <script lang="ts">
-    export let image_url: string;
-    export let project_name: string;
+    export let image_url: string
+    export let project_name: string
+    export let page_address: string
 </script>
 
-<a href="">
+<a href={page_address}>
     <div class="flex flex-col items-center relative w-80">
         <div class="w-full h-80 relative overflow-hidden">
             <img class="absolute top-0 h-full w-full 
