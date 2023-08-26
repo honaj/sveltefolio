@@ -2,24 +2,18 @@
     import Thumbnail from "../components/thumbnail.svelte"
     import {onMount} from "svelte";
 
-    let data;
+    let databaseContent;
 
-    async function fetchData() {
-        try {
-            const res = await fetch('/api/data');
-            if (res.ok) {
-                data = await res.json();
-            } else {
-                console.error('Error: ', res.statusText);
-            }
-        } catch (err) {
-            console.error('Failed to fetch data: ', err);
+    onMount(async () => {
+        const response = await fetch('/api/notion');
+        if (!response.ok) {
+            console.error("An error occurred:", response.statusText);
+        } else {
+            databaseContent = await response.json();
+            console.log(databaseContent);
         }
-    }
-
-    onMount(() => {
-        console.log(fetchData())
     });
+    
     
     const pages = [
         {image_url: '/democratic-design1.jpg', project_name: 'IKEA Museum - Democratic Design'},
