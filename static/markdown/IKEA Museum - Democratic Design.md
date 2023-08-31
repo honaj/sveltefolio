@@ -1,7 +1,5 @@
 # IKEA Museum - Democratic Design
 
-
-
 ### Can something be sustainable if the many people can’t afford it, and can a beautiful product without function still be great design? Not according to the principles of Democratic Design, the philosophy behind product development at IKEA – the topic of a new exhibition opening at IKEA Museum in Älmhult, Sweden on 29 April.
 
 “Democratic Design is the foundation of all IKEA products. It is the IKEA way of designing products that offer good function, form and quality, while also securing sustainability and low prices. We want visitors to understand that the product development process is influenced by a several of demands to create a true ‘IKEA product’,” says Anna Sandberg Falk, curator at IKEA Museum.
