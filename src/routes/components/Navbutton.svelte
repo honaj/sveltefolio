@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte"
+    import { width, height, isCircle } from './store';
     export let name: string = ''
     export let address: string = '#'
 
@@ -11,8 +12,22 @@
         const { offsetWidth } = button
         dir = (offsetX - (offsetWidth / 2) >= 0)
     }
+    
+    function onHover() {
+        isCircle.set(false)
+        width.set(this.clientWidth)
+        height.set(this.clientHeight)
+    }
+    
+    function onUnhover() {
+        isCircle.set(true)
+        width.set(10)
+        height.set(10)
+    }
 
     onMount(() => {
+        button.addEventListener("mouseenter", onHover)
+        button.addEventListener("mouseleave", onUnhover)
         button.addEventListener("mouseenter", setDirection)
         button.addEventListener("mouseleave", setDirection)
 

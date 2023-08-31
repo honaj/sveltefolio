@@ -2,6 +2,6 @@
     <div class="text-white font-Jost">
         © Johan Hellgren 2023
         <br><br>
-        Made with Svelte, Tailwind, Vercel and Notion
+        Made with SvelteKit, Tailwind, Vercel and Notion
     </div>
 </footer>
