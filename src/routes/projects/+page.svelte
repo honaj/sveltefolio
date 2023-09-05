@@ -1,7 +1,5 @@
 <script lang="ts">
     import thumbnail from "$lib/components/thumbnail.svelte"
-
-    
 </script>
 
 <div class="flex flex-col justify-center items-center pt-16">
