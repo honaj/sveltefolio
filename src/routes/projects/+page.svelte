@@ -1,12 +1,9 @@
 <script lang="ts">
     import Thumbnail from "../components/thumbnail.svelte"
     import {onMount} from "svelte"
+    import SvelteMarkdown from "svelte-markdown"
 
-    let pageDetails: any
-
-    onMount(async () => {
-       
-    });
+    
 </script>
 
 <div class="flex flex-col justify-center items-center pt-16">
