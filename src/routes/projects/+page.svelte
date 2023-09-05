@@ -1,7 +1,5 @@
 <script lang="ts">
-    import Thumbnail from "../components/thumbnail.svelte"
-    import {onMount} from "svelte"
-    import SvelteMarkdown from "svelte-markdown"
+    import thumbnail from "$lib/components/thumbnail.svelte"
 
     
 </script>

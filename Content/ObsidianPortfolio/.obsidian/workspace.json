@@ -11,9 +11,11 @@
             "id": "694e9bef6ec93600",
             "type": "leaf",
             "state": {
-              "type": "database-plugin",
+              "type": "markdown",
               "state": {
-                "file": "Projects/ProjectsTable.md"
+                "file": "Projects/IKEA Museum - Democratic Design.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/ProjectsTable.md",
+                "file": "Projects/IKEA Museum - Democratic Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/ProjectsTable.md",
+                "file": "Projects/IKEA Museum - Democratic Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/ProjectsTable.md"
+                "file": "Projects/IKEA Museum - Democratic Design.md"
               }
             }
           }
@@ -156,9 +158,9 @@
   },
   "active": "694e9bef6ec93600",
   "lastOpenFiles": [
+    "Projects/ProjectsTable.md",
     "Projects/IKEA Museum - Democratic Design.md",
     "Projects/Munch Museum - Shadows.md",
-    "Projects/ProjectsTable.md",
     "Context/spacesLastSync.log",
     "Context",
     "Projects"

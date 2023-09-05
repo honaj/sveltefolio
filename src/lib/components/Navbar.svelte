@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Navbutton from "./Navbutton.svelte"
+    import Navbutton from "$lib/components/Navbutton.svelte"
 
     let isOpen: Boolean = false
     const toggleMenu = () => {
